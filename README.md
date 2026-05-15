@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://developer.android.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/master/images/android-logo.svg" width="120" alt="Android Logo">
-    <h1 align="center">Android Development 2026</h1>
+  <a href="https://developer.android.com/studio" target="_blank">
+    <img src="https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png" width="200" alt="Android Studio Logo">
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-Android%2015%2B-3D?style=for-the-badge&logo=android&logoColor=white&color=3DDC84" alt="Platform">
-  <img src="https://img.shields.io/badge/Java-11-blue?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/SDK-36-orange?style=for-the-badge&logo=android-studio&logoColor=white" alt="SDK">
-  <img src="https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/Platform-Android-brightgreen.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/Java-11-blue.svg" alt="Java">
+  <img src="https://img.shields.io/badge/SDK-36-orange.svg" alt="SDK">
+  <img src="https://img.shields.io/badge/Database-SQLite-003B57.svg" alt="SQLite">
 </p>
 
 ---
+
 
 # App Móvil "Mundo Inclusivo" - Registro & Sincronización
 ### Módulo Móvil del Proyecto de Grado | UMSA
