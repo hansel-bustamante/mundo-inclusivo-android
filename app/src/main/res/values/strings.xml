@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mundo Inclusivo</string>
+    <string name="hint_usuario">Nombre de Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

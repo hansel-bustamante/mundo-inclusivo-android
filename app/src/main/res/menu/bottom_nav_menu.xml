@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/nav_personas"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="Personas" />
+
+    <item
+        android:id="@+id/nav_actividades"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Actividades" />
+
+    <item
+        android:id="@+id/nav_sync"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="Sincronizar" />
+
+</menu>

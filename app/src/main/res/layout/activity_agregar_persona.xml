@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nueva Persona"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombres"
+            android:layout_marginBottom="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText android:id="@+id/etPaterno" android:hint="Paterno" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etMaterno" android:hint="Materno" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etCI" android:hint="CI" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etFechaNac" android:hint="Fecha Nac." android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etCelular" android:hint="Celular" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etProcedencia" android:hint="Procedencia" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Spinner android:id="@+id/spinnerGenero" android:layout_width="match_parent" android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btnGuardarPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

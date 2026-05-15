@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:minWidth="300dp">
+
+    <TextView
+        android:id="@+id/tvNombreParticipante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juan Perez"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Institución / Organización"
+        android:textColor="#666"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerInstitucion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:drawable/btn_dropdown"/>
+
+    <CheckBox
+        android:id="@+id/cbDiscapacidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiene Discapacidad"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/cbFamiliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es Familiar / Cuidador"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/cbFirma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registra Firma"
+        android:checked="true"
+        android:textSize="16sp"/>
+
+</LinearLayout>
